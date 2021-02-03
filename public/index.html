@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <title>AirBnB</title>
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+<body>
+  <div id='main'></div>
+  <div id='availabilityApp1'></div>
+  <div id='users'></div>
+  <script src='http://localhost:5005/rooms/:id/photos-service.js'></script>
+  <script src='http://localhost:5001/rooms/:id/bundle_availability.js'></script>
+  <script src='http://localhost:5007/rooms/:id/users.js'></script>
+  <!-- why the below way does not work? -->
+  <!-- <script>
+    ReactDOM.render(
+    React.createElement(App)
+    , document.getElementById('main'));
+  </script> -->
+</body>
+</html>

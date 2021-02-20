@@ -8,9 +8,12 @@
   <div id='main'></div>
   <div id='availabilityApp1'></div>
   <div id='users'></div>
-  <script src='http://localhost:5005/rooms/:id/photos-service.js'></script>
-  <script src='http://localhost:5001/rooms/:id/bundle_availability.js'></script>
-  <script src='http://localhost:5007/rooms/:id/users.js'></script>
+  <script src='https://react-bundles.s3.us-east-2.amazonaws.com/photos-service.js'></script>
+  <script src='https://availability-bundle.s3-us-west-2.amazonaws.com/bundle_availability.js'></script>
+  <script src='https://fec-gnocchi-user-profile.s3-us-west-2.amazonaws.com/users.js'></script>
+  <script src='https://summarybundle-mockairbnb.s3-us-west-2.amazonaws.com/summary.js'></script>
+  <script src='https://fec-gnocchi-user-profile.s3-us-west-2.amazonaws.com/places.js'></script>
+
   <!-- why the below way does not work? -->
   <!-- <script>
     ReactDOM.render(

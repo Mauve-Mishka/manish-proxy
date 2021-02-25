@@ -3,16 +3,30 @@
   <title>AirBnB</title>
   <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/styled-components@4.0.1/dist/styled-components.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div id='header'></div>
+  <div id='title-bar'></div>
   <div id='main'></div>
+  <div id='summaryBar'></div>
   <div id='availabilityApp1'></div>
   <div id='users'></div>
+  <div id='availabilityApp2'></div>
+  <div id='places'></div>
+  <div id='footer'></div>
   <script src='https://react-bundles.s3.us-east-2.amazonaws.com/photos-service.js'></script>
   <script src='https://availability-bundle.s3-us-west-2.amazonaws.com/bundle_availability.js'></script>
   <script src='https://fec-gnocchi-user-profile.s3-us-west-2.amazonaws.com/users.js'></script>
   <script src='https://summarybundle-mockairbnb.s3-us-west-2.amazonaws.com/summary.js'></script>
   <script src='https://fec-gnocchi-user-profile.s3-us-west-2.amazonaws.com/places.js'></script>
+  <script src='https://react-bundles.s3.us-east-2.amazonaws.com/title-service.js'></script>
+  <script src='https://fec-gnocchi-user-profile.s3-us-west-2.amazonaws.com/header.js'></script>
+  <script src='https://footer-bundle.s3-us-west-2.amazonaws.com/footer.js'></script>
+  <script src='https://summarybundle-mockairbnb.s3-us-west-2.amazonaws.com/summary.js'></script>
 
   <!-- why the below way does not work? -->
   <!-- <script>
